@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OPRlab</title>
+  <link rel="stylesheet" href="css/superslides.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="top">
+    <div class="inner">
+      <a href="index.html"><img class="logo" src="150126_OPR lab logo.png" alt="OPRlab" /></a></br>
+      <a class="button" id="load-more-content" href="#top">PROCESS</a>
+      <a class="button" id="load-more-content" href="#top">CONTACT US</a>
+    </div>
+  </nav>
+
+  <div id="slides">
+    <div class="slides-container">
+      <img src="images/1.jpg" />
+      <img src="images/2.jpg" />
+      <img src="images/3.jpg" />
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.animate-enhanced.min.js"></script>
+  <script src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    $('#slides').superslides({
+      animation: 'fade',
+      play: 6000,
+      animation_speed: 1500,
+      pagination: false
+    });
+  </script>
+
+</body>
+</html>
